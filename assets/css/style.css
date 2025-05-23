@@ -1,0 +1,87 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.container{
+    width: 1000px;
+    margin: auto;
+    height: 100vh;
+}
+.p-inline{
+    padding-inline: 7.5px;
+}
+.row{
+    display: flex;
+    margin-inline: -7.5px;
+}
+
+.mb-15{
+    margin-bottom: 15px;
+}
+.mt-15{
+    margin-top: 15px;
+}
+.col-3{
+    width: 25%;
+}
+.col-4{
+    width: 33.33333333333333%;
+}
+.col-2{
+    width: 16.66666666666667%;
+}
+.col-6{
+    width: 50%;
+}
+.col-12{
+    width: 100%;
+}
+.col-10{
+    width: 83.33333333333333%;
+}
+.d-flex{
+    display: flex;
+}
+.d-flex-center{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.flex-box{
+    width: 100%;
+}
+header{
+    padding: 50px;
+    background-color: #D1D1D1;
+    margin-bottom: 15px;
+    width: 100%;
+}
+footer{
+    padding: 50px;
+    background-color: #D1D1D1;
+    margin-bottom: 15px;
+    width: 100%;
+}
+/* ---------------------------col-3 left */
+.card-1{
+    padding: 15px;
+    background-color: #D1D1D1;
+}
+.card-left{
+    padding: 60px;
+    background-color: #91BD92;
+}
+/* ----------------------------col-6 center */
+.card-center{
+    padding: 40px 30px;
+    background-color: #91BD92;
+}
+.card-center-center{
+    padding: 100px;
+    background-color: #91BD92;
+}
+/* -----------------------------col-3 right */
+.card-right{
+    padding: 147px 30px;background-color: #91BD92;
+}
